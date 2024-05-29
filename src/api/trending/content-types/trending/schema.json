@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trendings",
+  "info": {
+    "singularName": "trending",
+    "pluralName": "trendings",
+    "displayName": "Trending",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "movie": {
+      "type": "string"
+    }
+  }
+}

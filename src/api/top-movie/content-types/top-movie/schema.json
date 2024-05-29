@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_movies",
+  "info": {
+    "singularName": "top-movie",
+    "pluralName": "top-movies",
+    "displayName": "Top-Movie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "rank": {
+      "default": 1,
+      "required": true,
+      "type": "integer"
+    }
+  }
+}
