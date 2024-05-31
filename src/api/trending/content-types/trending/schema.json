@@ -25,6 +25,10 @@
     },
     "movie": {
       "type": "string"
+    },
+    "trailer": {
+      "type": "string",
+      "required": true
     }
   }
 }

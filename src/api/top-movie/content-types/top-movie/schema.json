@@ -4,7 +4,8 @@
   "info": {
     "singularName": "top-movie",
     "pluralName": "top-movies",
-    "displayName": "Top-Movie"
+    "displayName": "Top-Movie",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,20 +17,24 @@
       "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
+      ]
     },
     "rank": {
       "default": 1,
       "required": true,
       "type": "integer"
+    },
+    "trailer": {
+      "type": "string",
+      "required": true
     }
   }
 }
